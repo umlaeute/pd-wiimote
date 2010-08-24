@@ -1,0 +1,24 @@
+Source: pd-wiimote
+Priority: optional
+Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
+Uploaders: Roman Haefeli <reduzent@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), puredata  (>= 0.42.5-3), libcwiid-dev (>= 0.6.00+svn201)
+Standards-Version: 3.8.4
+Homepage: http://puredata.info
+Section: sound
+Vcs-Git: git://git.debian.org/pkg-multimedia/pd-wiimote.git
+Vcs-Browser: http://git.debian.org/?p=pkg-multimedia/pd-wiimote.git;a=summary
+
+Package: pd-wiimote
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libcwiid1 (>= 0.6.00+svn201), 
+ pd
+Description: A puredata external for accessing the wiimote controller
+ Adds access to the sensor data from Nintendo's wiimote controller. Also
+ it provides an interface to control the controller's actuators such as
+ LED 1-4 and the rumble vibrator. Furthermore, it supports some of the
+ extensions of the wiimote, such as Nunchuk, Motion Plus, Classic Control. 
+ . 
+ Check the help-patch for more usage information.
+ .
+

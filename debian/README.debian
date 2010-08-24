@@ -1,0 +1,25 @@
+pd-wiimote for Debian
+---------------------
+
+The [wiimote] PureData external provides an interface to Nintendo's
+famous wireless Wiimote controller.
+
+It has support for:
+ * All buttons
+ * 3-axis accelerometers
+ * LED 1-4
+ * Rumble motor
+ * IR-Blob tracking Camera (up to 4 blobs)
+
+The following extensions are also supported:
+ * Nunchuk (analog stick, 3-axis accelerometer)
+ * Motion Plus (3-axis gyroscope)
+ * Classic Controller (buttons and analog sticks)
+
+These extensions are still untested, but might work:
+ * Balance Board
+
+This is a fork of the wiimote external written by Mike Wozniewski.
+It is currently developed by IOhannes m zmölnig.
+
+ -- Roman Haefeli <reduzent@gmail.com>, Mon, 16 Aug 2010 23:39:20 +0200

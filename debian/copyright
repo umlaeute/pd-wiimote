@@ -1,0 +1,17 @@
+Debianized-by: Roman Haefeli <reduzent@gmail.com>
+Debianized-Date: Tue, 17 Aug 2010 00:46:22 +0200
+Original-Source:  
+Files: *
+Copyright: 2007, Mike Wozniewski <mike@ozmediasolutions.com>
+	   2008,2009 Florian Krebs <flokadillo@yahoo.de>
+	   2009,2010 IOhannes m zmoelnig <zmoelnig@iem.at>
+
+License: GPL-2
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ version 2 can be found in file "/usr/share/common-licenses/GPL-2".
+
