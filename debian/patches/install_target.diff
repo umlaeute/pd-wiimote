@@ -1,0 +1,20 @@
+--- pd-wiimote.orig/Makefile
++++ pd-wiimote/Makefile
+@@ -21,7 +21,7 @@
+ VERSION=0.3.1
+ 
+ # where Pd lives
+-PD_PATH = ../../pd
++PD_PATH = /usr/lib/pd
+ # where to install the library
+ objectsdir = $(PD_PATH)/extra
+ 
+@@ -111,7 +111,7 @@
+ 	install -m644 -p CHANGES $(DESTDIR)$(objectsdir)/$(LIBRARY_NAME)/CHANGES.txt
+ 
+ install-exec:
+-	install -d $(objectsdir)/$(LIBRARY_NAME)
++	install -d $(DESTDIR)$(objectsdir)/$(LIBRARY_NAME)
+ 	install -m644 -p $(wildcard *.pd) $(DESTDIR)$(objectsdir)/$(LIBRARY_NAME)
+ 
+ 
