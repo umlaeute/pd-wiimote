@@ -3,7 +3,7 @@ Priority: optional
 Maintainer: Debian Multimedia Maintainers <pkg-multimedia-maintainers@lists.alioth.debian.org>
 Uploaders: Roman Haefeli <reduzent@gmail.com>
 Build-Depends: debhelper (>= 7.0.50~), puredata  (>= 0.42.5-3), libcwiid-dev (>= 0.6.00+svn201)
-Standards-Version: 3.8.4
+Standards-Version: 3.9.1
 Homepage: http://puredata.info
 Section: sound
 Vcs-Git: git://git.debian.org/pkg-multimedia/pd-wiimote.git
