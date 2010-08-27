@@ -5,7 +5,7 @@
  PD_PATH = ../../pd
  # where to install the library
 -objectsdir = $(PD_PATH)/extra
-+prefix = /usr/local
++prefix = /usr
 +libdir = $(prefix)/lib
 +pkglibdir = $(libdir)/pd/extra
 +objectsdir = $(pkglibdir)
